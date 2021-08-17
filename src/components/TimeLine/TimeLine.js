@@ -44,6 +44,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider divider/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       t has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
@@ -105,7 +106,7 @@ const Timeline = () => {
             <CarouselButtonDot active={activeItem}/> </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider/>
+      
     </Section>
   );
 };

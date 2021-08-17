@@ -26,7 +26,7 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
+  font-size: ${(props) => props.main ? '70px' : '60px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
@@ -54,6 +54,38 @@ export const SectionTitle = styled.h2`
   }
 `
 
+export const SectionTitleTwo = styled.h2`
+  font-weight: 800;
+  font-size: ${(props) => props.main ? '56px' : '65px'};
+  line-height: ${(props) => props.main ? '72px' : '56px'};
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: ${(props) => props.main ? '56px' : '48px'};
+    line-height: ${(props) => props.main ? '56px' : '48px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 32px;
+    line-height: 40px;
+    font-size: ${(props) => props.main ? '28px' : '32px'};
+    line-height: ${(props) => props.main ? '32px' : '40px'};
+    margin-bottom: 8px;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    max-width: 100%;
+  }
+`
+
+
+
 export const SectionText = styled.p`
   max-width: 800px;
   font-size: 24px;
@@ -78,7 +110,7 @@ export const SectionText = styled.p`
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
+  width:100%;
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
@@ -98,6 +130,29 @@ export const SectionDivider = styled.div`
     height: 2px;
   }
 `
+export const SectionDividerTwo = styled.div`
+
+  width:100%;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+  background: ${(props) => props.colorAlt ? 
+    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
+    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+
+    margin: ${(props) => props.divider ? "4rem 0" : "" };
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 48px;
+    height: 4px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 32px;
+    height: 2px;
+  }
+`
+
 export const SectionSubText = styled.p`
   max-width: 800px;
   font-weight: 300;
