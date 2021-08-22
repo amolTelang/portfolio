@@ -32,6 +32,7 @@ const Hero = (props) => (
             "Technophile.",
             "PowerLifter.",
             "Geek.",
+            "Gamer.",
           ],
         }}/>
       </SectionTitleTwo>
