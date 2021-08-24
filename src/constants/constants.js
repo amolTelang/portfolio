@@ -38,9 +38,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'loved cs', },
-  { year: 2019, text: 'Joined college', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'looking for internships', },
+  { year: 2016, text: 'Finished High-School',},
+  { year: 2018, text: 'Finished Pre-University College',},
+  { year: 2018, text: 'Joined SDMCET Engg College', },
+  { year: 2019, text: 'Joined CSE Branch of my College', },
+  { year: 2020, text: 'Started building Projects', },
+  { year: 2021, text: 'In final Year of University', },
 ];
