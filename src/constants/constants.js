@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Travel Advisor',
     description: "A Web App built using React and various open Source APIs that advises the user on weather,places of interest,etc near his current location on an integrated map of his surrounding area",
-      image: '/images/3.jpg',
+      image: 'https://user-images.githubusercontent.com/60285234/129048443-19500d4a-6bb8-4e64-b3d5-7648c4aef745.png',
       tags: ['React', 'Open API'],
     source: 'https://github.com/amolTelang/travelAdvisor.git',
     visit: 'https://traveladvisor007.netlify.app/',
