@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Echo..',
     description: "A full stack MERN application with user authentication using JWT and google OAuth that allows the user to create and share his favourite memories and also comment and like other users Memories as well",
-    image: '/images/4.jpg',
+    image: '/images/4.png',
     tags: ['MongoDB', 'Express', 'React', 'Node'],
     source: 'https://github.com/amolTelang/Memories.git',
     visit: 'https://echo007.netlify.app/',

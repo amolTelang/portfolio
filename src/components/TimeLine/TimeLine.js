@@ -32,8 +32,6 @@ const Timeline = () => {
     }
   }
 
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -47,7 +45,7 @@ const Timeline = () => {
       <SectionDivider divider/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      t has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+        I'm Amol a self motivated tech-enthusiast, ever since I was a kid i've been facinated by computers which made me choose a carrer in Computer Sciences..
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
