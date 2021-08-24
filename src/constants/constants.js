@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Algo Vision',
     description: "A Web Application created using React,HTML and CSS that generated random arrays and sorts them using different sorting algorithms making it easier to visuvalize the process.",
-      image: 'https://drive.google.com/file/d/1MGi7lmU5TtHsUqm1z5sBHO8w5wPR0CUn/view?usp=sharing',
+      image: '/images/1.png',
       tags: ['React','CSS'],
     source: 'https://github.com/amolTelang/algoVisuvalizer.git',
     visit: 'https://algovision001.netlify.app/',
